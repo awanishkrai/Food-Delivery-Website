@@ -1,0 +1,43 @@
+.dropdown {
+    position: relative;
+    top: 5%;
+        -ms-transform: translateY(-170%);
+        transform: translateY(-170%);
+    display: inline-block;
+    margin-left: 1350px;
+
+}
+.dropbtn {
+    background-color:whitesmoke;
+    color: rgb(from color r g b);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown:hover .menu {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.int{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+h3{
+    color:rgb(18, 6, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inter{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 200px;
+}
+.int:hover{
+    opacity: 50%;
+}

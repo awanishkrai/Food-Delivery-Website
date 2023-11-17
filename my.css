@@ -1,0 +1,75 @@
+.logo {
+    margin: 1%;
+    height: 80%;
+    width: 50%;
+   
+}
+
+div.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url("5cc6e5c88aa1282ede34efea_1556538824187.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+}
+h2{
+    color:wheat;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.special{
+    font-size: 100px;
+    color:#FEA116;
+    background-color:#F1F8FF;
+}
+
+.foodname{
+    color:white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom:30%;
+}
+.price{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10%;
+    text-align: right;
+    position: relative;
+    bottom: 40%;
+    right: 55%;
+    font-weight:bold;
+    font-size: 20px;
+}

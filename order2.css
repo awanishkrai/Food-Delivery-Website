@@ -1,0 +1,277 @@
+.logo {
+    margin: 1%;
+    height: 80%;
+    width: 50%;
+
+}
+
+div.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: wheat;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.special {
+    font-size: 100px;
+    color: #FEA116;
+    background-color: #F1F8FF;
+}
+
+.foodname {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 30%;
+}
+
+.price {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10%;
+    text-align: right;
+    position: relative;
+    bottom: 40%;
+    right: 55%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.order {
+    position: relative;
+    top: 27%;
+    left: 82%;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    transition: width 0.1s;
+}
+
+.order:hover {}
+
+.button1 {
+    margin-left: 10%;
+    background-color: white;
+    /* Green */
+    border: none;
+    color: green;
+    padding: 15px 32px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 30%;
+    left: 58.5%;
+}
+
+.button1:hover {
+    background-color: green;
+    color: #F1F8FF;
+}
+
+.cake1 {
+    font-family: Ink Free;
+    font-weight: bold;
+    position: relative;
+    left: 5%;
+    display: block;
+
+}
+
+.me {
+    margin-left: 22%;
+    margin-right: 22%;
+    background-color: white;
+    border-radius: 0%;
+    box-shadow: 5px 5px rgb(108, 105, 105);
+    font-family: Ink Free;
+}
+
+body {
+    background-image: url("back.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#d1 {
+    width: 10%;
+    position: absolute;
+    top: 47.5%;
+    left: 25%;
+
+}
+
+#d2 {
+    width: 20%;
+    position: absolute;
+    top: 66%;
+    left: 25%;
+}
+
+#d3 {
+    width: 10%;
+    position: absolute;
+    top: 91%;
+    left: 25%;
+}
+
+#d4 {
+    width: 10%;
+    position: absolute;
+    top: 110%;
+    left: 25%;
+}
+
+#d5 {
+    width: 10%;
+    position: absolute;
+    top: 133.5%;
+    left: 25%;
+}
+
+#d6 {
+    width: 10%;
+    position: absolute;
+    top: 154%;
+    left: 25%;
+}
+
+#d7 {
+    width: 10%;
+    position: absolute;
+    top: 170%;
+    left: 25%;
+}
+
+h1 {
+    color: wheat;
+    text-align: center;
+    font-family: Ink Free;
+}
+
+#c1 {
+    position: absolute;
+    top: 43%;
+    left: 25%;
+}
+
+#c2 {
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+#c3 {
+    width: 40%;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+#c4 {
+    width: 40%;
+    position: absolute;
+    top: 105%;
+    left: 25%;
+}
+
+#c5 {
+    width: 40%;
+    position: absolute;
+    top: 126%;
+    left: 25%;
+}
+
+#c6 {
+    width: 40%;
+    position: absolute;
+    top: 148%;
+    left: 25%;
+}
+
+#c7 {
+    width: 40%;
+    position: absolute;
+    top: 165%;
+    left: 25%;
+}
+
+#e1 {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+
+#e2 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+#e3 {
+    position: absolute;
+    top: 92%;
+    left: 25%;
+}
+
+#e4 {
+    position: absolute;
+    top: 112%;
+    left: 25%;
+}
+
+#e5 {
+    position: absolute;
+    top: 134%;
+    left: 25%;
+}
+
+#e6 {
+    position: absolute;
+    top: 154%;
+    left: 25%;
+}
+
+#e7 {
+    position: absolute;
+    top: 170%;
+    left: 25%;
+}
